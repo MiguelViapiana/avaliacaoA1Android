@@ -62,6 +62,13 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
     implementation("androidx.navigation:navigation-compose:2.7.5")
+    implementation(libs.androidx.appcompat)
+    implementation(libs.firebase.firestore.ktx)
+    implementation(libs.androidx.recyclerview)
+    implementation(libs.firebase.auth.ktx)
+    implementation(libs.play.services.drive)
+    implementation(libs.androidx.startup.runtime)
+    implementation(libs.androidx.material3.android)
 
     // Testing
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
